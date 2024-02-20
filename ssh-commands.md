@@ -159,7 +159,7 @@ Host github-personal.com
 > 
 
 ```bash
-~~git clone git@github.com:abhishake63/abhishake63.git~~
+git clone git@github.com:abhishake63/abhishake63.git
 ```
 
 > Clone from either *`github-work.com`* or *`github-personal.com`*.

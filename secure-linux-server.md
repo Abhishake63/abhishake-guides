@@ -52,9 +52,9 @@ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 
 nano /etc/ssh/sshd_config
 
-***PermitRootLogin no
+PermitRootLogin no
 Port 1011
-PasswordAuthentication no***
+PasswordAuthentication no
 
 systemctl restart sshd
 ```
