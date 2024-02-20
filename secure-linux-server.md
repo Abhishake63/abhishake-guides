@@ -42,10 +42,12 @@ ssh -i /path/to/hostname.pem admin@hostname
 To further secure your server, we'll disable root login, password authentication, and change the default SSH port. These measures mitigate common attack vectors and bolster your server's resilience against unauthorized access attempts.
 
 > Generally, root login is enabled by default. But we have to change it now for security. Open the sshd-config file by the below command & **change the line ‘#PermitRootLogin yes’ to ‘PermitRootLogin no’**
+> 
 
-Generally, the default port SSH listens to is 22. But we have to change it now for security. Open the sshd-config file by the below command & **change the line ‘#Port 22’ to ‘Port 1011’**
+> Generally, the default port SSH listens to is 22. But we have to change it now for security. Open the sshd-config file by the below command & change the line ‘#Port 22’ to ‘Port 1011’
+> 
 
-Open the sshd-config file by the below command & **change the line ‘#PasswordAuthentication yes’ to ‘PasswordAuthentication no’**
+> Open the sshd-config file by the below command & change the line ‘#PasswordAuthentication yes’ to ‘PasswordAuthentication no’
 > 
 
 ```bash
